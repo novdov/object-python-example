@@ -21,3 +21,7 @@ python == 3.7
 ## 코드 스타일 & 타입 체크
 - 코드 스타일: [`black`](https://github.com/psf/black)/[`isort`](https://github.com/timothycrosley/isort) 를 사용합니다.
 - 정적 타입 체크: [`pyright`](https://github.com/microsoft/pyright) 를 사용합니다.
+
+
+## 함께 읽으면 좋을 책
+- [클린 아키텍처](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=202322454)(로버트 C. 마틴 저, 송준이 역, 2인사이트, 2019)
