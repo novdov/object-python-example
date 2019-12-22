@@ -6,4 +6,6 @@
 3. 설계 개선하기
     - step02
         - 자율성을 높이자: `Audience` 와 `TicketSeller` 가 `Bag` 과 `TicketOffice`를 직접 처리하는 자율적인 존재로 수정
+    - step03
+        - `Bag` / `TicketOffice` 또한 자율적인 존재로 변경
 4. 객체지향 설계
