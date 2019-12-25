@@ -3,11 +3,12 @@ from typing import List
 
 from ch02.money import Money
 
+from .discount_condition import DiscountCondition
 from .screening import Screening
 
 
 class DiscountPolicy(abc.ABC):
-    def __init__(self, conditions: List):
+    def __init__(self, conditions: List[DiscountCondition]):
         self._conditions = conditions
 
     def calculate_discount_amount(self, screening: Screening) -> Money:
