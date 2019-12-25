@@ -1,7 +1,8 @@
 from datetime import timedelta
 
-from .discount_policy import DiscountPolicy
 from ch02.money import Money
+
+from .discount_policy import DiscountPolicy
 from .screening import Screening
 
 

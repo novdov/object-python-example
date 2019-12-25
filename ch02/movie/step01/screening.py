@@ -4,8 +4,9 @@
 
 from datetime import datetime
 
-from .customer import Customer
 from ch02.money import Money
+
+from .customer import Customer
 from .movie import Movie
 from .reservation import Reservation
 

@@ -1,5 +1,6 @@
-from .customer import Customer
 from ch02.money import Money
+
+from .customer import Customer
 from .screening import Screening
 
 
