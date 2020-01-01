@@ -1,5 +1,5 @@
 import abc
-from typing import List
+from typing import List, Optional
 
 from ch02.money import Money
 
@@ -8,7 +8,7 @@ from .screening import Screening
 
 
 class DiscountPolicy(abc.ABC):
-    def __init__(self, conditions: List[DiscountCondition]):
+    def __init__(self, conditions: Optional[List[DiscountCondition]] = None):
         self._conditions = conditions
 
     def calculate_discount_amount(self, screening: Screening) -> Money:
