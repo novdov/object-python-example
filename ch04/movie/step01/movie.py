@@ -33,9 +33,9 @@ class Movie:
 
         self._cls_args = locals()
         self._movie_type_args = {
-            MovieType.NONE_DISCOUNT: {"discount_amount": Money.zero(), "discount_percent": 0,},
-            MovieType.PERCENT_DISCOUNT: {"discount_amount": Money.zero(),},
-            MovieType.AMOUNT_DISCOUNT: {"discount_percent": 0,},
+            MovieType.NONE_DISCOUNT: {"discount_amount": Money.zero(), "discount_percent": 0},
+            MovieType.PERCENT_DISCOUNT: {"discount_amount": Money.zero()},
+            MovieType.AMOUNT_DISCOUNT: {"discount_percent": 0},
         }
         self._validate_args()
 
