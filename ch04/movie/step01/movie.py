@@ -41,7 +41,7 @@ class Movie:
 
     def _validate_args(self):
         _args_dict = self._movie_type_args[self._movie_type]
-        for name, value in locals().items():
+        for name, value in self._cls_args.items():
             if name in _args_dict and value != _args_dict[name]:
                 raise ValueError(
                     f"Expected values: {self._movie_type}: {pprint.pformat(_args_dict, indent=2)}, "
