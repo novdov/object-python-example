@@ -6,7 +6,7 @@
 
 ## 실습 환경
 ```bash
-python == 3.7
+python == 3.8
 ```
 
 
